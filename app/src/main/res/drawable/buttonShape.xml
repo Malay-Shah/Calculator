@@ -11,10 +11,7 @@
         android:endColor="#FFFFFFF"
         android:type="linear"
         />
-    <size
-        android:width="270dp"
-        android:height="60dp"
-        />
+
     <stroke
         android:width="1dp"
         android:color="#444743"

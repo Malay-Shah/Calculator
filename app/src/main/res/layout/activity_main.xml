@@ -49,28 +49,28 @@
                 android:text="mc"
                 android:layout_weight="1"
                 style="@style/ButtonStyle"
-               />
+                android:id="@+id/bMc" />
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:text="mc"
+                android:text="m+"
                 android:layout_weight="1"
                 style="@style/ButtonStyle"
-                />
+                android:id="@+id/bMPlus" />
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:text="mc"
+                android:text="m-"
                 android:layout_weight="1"
                 style="@style/ButtonStyle"
-                />
+                android:id="@+id/bMMinus" />
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:text="mc"
+                android:text="mr"
                 android:layout_weight="1"
                 style="@style/ButtonStyle"
-               />
+                android:id="@+id/bMR" />
         </TableRow>
         <TableRow
             android:layout_weight="2"
