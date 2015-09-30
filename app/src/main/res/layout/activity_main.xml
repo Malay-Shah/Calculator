@@ -10,7 +10,7 @@
         android:layout_height="80dp"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="Large Text"
-        android:id="@+id/textView"
+        android:id="@+id/tvMainText"
         android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
@@ -23,8 +23,8 @@
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:text="Medium Text"
-        android:id="@+id/textView2"
-        android:layout_below="@+id/textView"
+        android:id="@+id/tvSubText"
+        android:layout_below="@+id/tvMainText"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentLeft="true"
@@ -34,7 +34,7 @@
     <TableLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_below="@+id/textView2"
+        android:layout_below="@+id/tvSubText"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:weightSum="11"
@@ -48,24 +48,28 @@
                 android:layout_height="match_parent"
                 android:text="mc"
                 android:layout_weight="1"
+                style="@style/ButtonStyle"
                />
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:text="mc"
                 android:layout_weight="1"
+                style="@style/ButtonStyle"
                 />
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:text="mc"
                 android:layout_weight="1"
+                style="@style/ButtonStyle"
                 />
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:text="mc"
                 android:layout_weight="1"
+                style="@style/ButtonStyle"
                />
         </TableRow>
         <TableRow
@@ -78,6 +82,7 @@
                 android:layout_height="match_parent"
                 android:text="C"
                 android:id="@+id/bC"
+                style="@style/ButtonStyle"
                />
             <Button
                 android:layout_width="wrap_content"
@@ -85,6 +90,7 @@
                 android:layout_height="match_parent"
                 android:text="%"
                 android:id="@+id/bPercent"
+                style="@style/ButtonStyle"
                 />
             <Button
                 android:layout_width="wrap_content"
@@ -92,6 +98,7 @@
                 android:layout_height="match_parent"
                 android:text="+/-"
                 android:id="@+id/bPosNeg"
+                style="@style/ButtonStyle"
                 />
             <Button
                 android:layout_width="wrap_content"
@@ -99,6 +106,7 @@
                 android:layout_height="match_parent"
                 android:text="÷"
                 android:id="@+id/bDivide"
+                style="@style/ButtonStyle"
                 />
         </TableRow>
         <TableRow
@@ -111,6 +119,7 @@
                 android:layout_height="match_parent"
                 android:text="7"
                 android:id="@+id/b7"
+                style="@style/ButtonStyle"
                 />
             <Button
                 android:layout_width="wrap_content"
@@ -118,6 +127,7 @@
                 android:layout_height="match_parent"
                 android:text="8"
                 android:id="@+id/b8"
+                style="@style/ButtonStyle"
                 />
             <Button
                 android:layout_width="wrap_content"
@@ -125,6 +135,7 @@
                 android:layout_height="match_parent"
                 android:text="9"
                 android:id="@+id/b9"
+                style="@style/ButtonStyle"
                 />
             <Button
                 android:layout_width="wrap_content"
@@ -132,6 +143,7 @@
                 android:layout_height="match_parent"
                 android:text="X"
                 android:id="@+id/bMultiply"
+                style="@style/ButtonStyle"
                 />
         </TableRow>
         <TableRow
@@ -144,6 +156,7 @@
                 android:layout_height="match_parent"
                 android:text="4"
                 android:id="@+id/b4"
+                style="@style/ButtonStyle"
                 />
             <Button
                 android:layout_width="wrap_content"
@@ -151,6 +164,7 @@
                 android:layout_height="match_parent"
                 android:text="5"
                 android:id="@+id/b5"
+                style="@style/ButtonStyle"
                 />
             <Button
                 android:layout_width="wrap_content"
@@ -158,6 +172,7 @@
                 android:layout_height="match_parent"
                 android:text="6"
                 android:id="@+id/b6"
+                style="@style/ButtonStyle"
                 />
             <Button
                 android:layout_width="wrap_content"
@@ -165,6 +180,7 @@
                 android:layout_height="match_parent"
                 android:text="-"
                 android:id="@+id/bMinus"
+                style="@style/ButtonStyle"
                 />
         </TableRow>
         <TableRow
@@ -177,6 +193,7 @@
                 android:layout_height="match_parent"
                 android:text="1"
                 android:id="@+id/b1"
+                style="@style/ButtonStyle"
                 />
             <Button
                 android:layout_width="wrap_content"
@@ -184,6 +201,7 @@
                 android:layout_height="match_parent"
                 android:text="2"
                 android:id="@+id/b2"
+                style="@style/ButtonStyle"
                 />
             <Button
                 android:layout_width="wrap_content"
@@ -191,6 +209,7 @@
                 android:layout_height="match_parent"
                 android:text="3"
                 android:id="@+id/b3"
+                style="@style/ButtonStyle"
                 />
             <Button
                 android:layout_width="wrap_content"
@@ -198,6 +217,7 @@
                 android:layout_height="match_parent"
                 android:text="+"
                 android:id="@+id/bPlus"
+                style="@style/ButtonStyle"
                 />
         </TableRow>
         <TableRow
@@ -210,6 +230,7 @@
                 android:layout_height="match_parent"
                 android:text="0"
                 android:id="@+id/b0"
+                style="@style/ButtonStyle"
                 />
             <Button
                 android:layout_width="wrap_content"
@@ -217,6 +238,7 @@
                 android:layout_height="match_parent"
                 android:text="."
                 android:id="@+id/bDot"
+                style="@style/ButtonStyle"
                 />
             <Button
                 android:layout_width="wrap_content"
@@ -224,6 +246,8 @@
                 android:layout_height="match_parent"
                 android:text="←"
                 android:id="@+id/bDelete"
+                style="@style/ButtonStyle"
+                android:textSize="30dp"
                 />
             <Button
                 android:layout_width="wrap_content"
@@ -231,6 +255,7 @@
                 android:layout_height="match_parent"
                 android:text="="
                 android:id="@+id/bEqual"
+                style="@style/ButtonStyle"
                 />
         </TableRow>
 

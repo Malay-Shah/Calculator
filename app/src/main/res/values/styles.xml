@@ -4,5 +4,10 @@
     <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
         <!-- Customize your theme here. -->
     </style>
+    <style name="ButtonStyle">
+        <item name="android:textSize">26dp</item>
+        <item name="android:background">@drawable/buttonShape</item>
+        <item name="android:padding">2dp</item>
 
+    </style>
 </resources>
