@@ -38,40 +38,9 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:weightSum="11"
-        android:layout_marginTop="5dp">
+        android:layout_marginTop="10dp">
 
-        <TableRow
-            android:layout_weight="1"
-            android:weightSum="4">
-            <Button
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:text="mc"
-                android:layout_weight="1"
-                style="@style/ButtonStyle"
-                android:id="@+id/bMc" />
-            <Button
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:text="m+"
-                android:layout_weight="1"
-                style="@style/ButtonStyle"
-                android:id="@+id/bMPlus" />
-            <Button
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:text="m-"
-                android:layout_weight="1"
-                style="@style/ButtonStyle"
-                android:id="@+id/bMMinus" />
-            <Button
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:text="mr"
-                android:layout_weight="1"
-                style="@style/ButtonStyle"
-                android:id="@+id/bMR" />
-        </TableRow>
+
         <TableRow
             android:layout_weight="2"
             android:weightSum="4">
@@ -83,7 +52,7 @@
                 android:text="C"
                 android:id="@+id/bC"
                 style="@style/ButtonStyle"
-               />
+                android:layout_column="0" />
             <Button
                 android:layout_width="wrap_content"
                 android:layout_weight="1"
@@ -91,7 +60,8 @@
                 android:text="%"
                 android:id="@+id/bPercent"
                 style="@style/ButtonStyle"
-                />
+                android:layout_column="1" />
+
             <Button
                 android:layout_width="wrap_content"
                 android:layout_weight="1"
@@ -99,7 +69,8 @@
                 android:text="+/-"
                 android:id="@+id/bPosNeg"
                 style="@style/ButtonStyle"
-                />
+                android:layout_column="2" />
+
             <Button
                 android:layout_width="wrap_content"
                 android:layout_weight="1"
@@ -107,7 +78,8 @@
                 android:text="÷"
                 android:id="@+id/bDivide"
                 style="@style/ButtonStyle"
-                />
+                android:layout_column="3" />
+
         </TableRow>
         <TableRow
             android:layout_weight="2"
@@ -120,7 +92,7 @@
                 android:text="7"
                 android:id="@+id/b7"
                 style="@style/ButtonStyle"
-                />
+                android:layout_column="0" />
             <Button
                 android:layout_width="wrap_content"
                 android:layout_weight="1"
@@ -128,7 +100,8 @@
                 android:text="8"
                 android:id="@+id/b8"
                 style="@style/ButtonStyle"
-                />
+                android:layout_column="1" />
+
             <Button
                 android:layout_width="wrap_content"
                 android:layout_weight="1"
@@ -136,7 +109,8 @@
                 android:text="9"
                 android:id="@+id/b9"
                 style="@style/ButtonStyle"
-                />
+                android:layout_column="2" />
+
             <Button
                 android:layout_width="wrap_content"
                 android:layout_weight="1"
@@ -144,7 +118,8 @@
                 android:text="X"
                 android:id="@+id/bMultiply"
                 style="@style/ButtonStyle"
-                />
+                android:layout_column="3" />
+
         </TableRow>
         <TableRow
             android:layout_weight="2"
@@ -157,7 +132,7 @@
                 android:text="4"
                 android:id="@+id/b4"
                 style="@style/ButtonStyle"
-                />
+                android:layout_column="0" />
             <Button
                 android:layout_width="wrap_content"
                 android:layout_weight="1"
@@ -165,7 +140,8 @@
                 android:text="5"
                 android:id="@+id/b5"
                 style="@style/ButtonStyle"
-                />
+                android:layout_column="1" />
+
             <Button
                 android:layout_width="wrap_content"
                 android:layout_weight="1"
@@ -173,7 +149,8 @@
                 android:text="6"
                 android:id="@+id/b6"
                 style="@style/ButtonStyle"
-                />
+                android:layout_column="2" />
+
             <Button
                 android:layout_width="wrap_content"
                 android:layout_weight="1"
@@ -181,7 +158,8 @@
                 android:text="-"
                 android:id="@+id/bMinus"
                 style="@style/ButtonStyle"
-                />
+                android:layout_column="3" />
+
         </TableRow>
         <TableRow
             android:layout_weight="2"
@@ -194,7 +172,7 @@
                 android:text="1"
                 android:id="@+id/b1"
                 style="@style/ButtonStyle"
-                />
+                android:layout_column="0" />
             <Button
                 android:layout_width="wrap_content"
                 android:layout_weight="1"
@@ -202,7 +180,8 @@
                 android:text="2"
                 android:id="@+id/b2"
                 style="@style/ButtonStyle"
-                />
+                android:layout_column="1" />
+
             <Button
                 android:layout_width="wrap_content"
                 android:layout_weight="1"
@@ -210,7 +189,8 @@
                 android:text="3"
                 android:id="@+id/b3"
                 style="@style/ButtonStyle"
-                />
+                android:layout_column="2" />
+
             <Button
                 android:layout_width="wrap_content"
                 android:layout_weight="1"
@@ -218,7 +198,8 @@
                 android:text="+"
                 android:id="@+id/bPlus"
                 style="@style/ButtonStyle"
-                />
+                android:layout_column="3" />
+
         </TableRow>
         <TableRow
             android:layout_weight="2"
@@ -231,7 +212,7 @@
                 android:text="0"
                 android:id="@+id/b0"
                 style="@style/ButtonStyle"
-                />
+                android:layout_column="0" />
             <Button
                 android:layout_width="wrap_content"
                 android:layout_weight="1"
@@ -239,7 +220,8 @@
                 android:text="."
                 android:id="@+id/bDot"
                 style="@style/ButtonStyle"
-                />
+                android:layout_column="1" />
+
             <Button
                 android:layout_width="wrap_content"
                 android:layout_weight="1"
@@ -248,7 +230,8 @@
                 android:id="@+id/bDelete"
                 style="@style/ButtonStyle"
                 android:textSize="30dp"
-                />
+                android:layout_column="2" />
+
             <Button
                 android:layout_width="wrap_content"
                 android:layout_weight="1"
@@ -256,7 +239,8 @@
                 android:text="="
                 android:id="@+id/bEqual"
                 style="@style/ButtonStyle"
-                />
+                android:layout_column="3" />
+
         </TableRow>
 
 
